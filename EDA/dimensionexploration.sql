@@ -9,6 +9,7 @@ Purpose:
 */
 
 
+--- driver per season
 
 SELECT
     f.season,
@@ -21,6 +22,8 @@ JOIN goldf1.dim_driver d
     ON f.driver_key = d.driver_key
 GROUP BY f.season, d.driver_key
 ORDER BY f.season, total_points DESC;
+
+--- circuits by country
 
 SELECT
     country,
