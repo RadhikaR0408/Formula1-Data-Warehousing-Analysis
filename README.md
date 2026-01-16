@@ -167,5 +167,5 @@ Gold-layer tables are **BI-ready** and optimized for:
 ## Author
 
 **Radhika**
-Aspiring Data Engineer / Data Analyst
+Cloud & Data Engineering Entusiast
 
